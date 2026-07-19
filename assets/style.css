@@ -52,6 +52,16 @@ main { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
 .hero h1 .accent { color: var(--orange); }
 .hero p { opacity: .92; font-size: .98rem; }
 
+.hero-points { list-style: none; margin: 18px 0 22px; padding: 0; }
+.hero-points li { font-size: .96rem; opacity: .96; margin-bottom: 7px; }
+.hero-points .ck { color: var(--orange); font-weight: 700; margin-right: 8px; }
+.hero-note { font-size: .82rem; opacity: .78; margin-top: 14px; }
+
+.store-btn.lg { padding: 15px 26px; font-size: 1rem; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+.hero .store-btn { background: #fff; color: var(--navy); }
+.hero .store-btn.play { background: #1c7a4a; color: #fff; }
+.hero .store-btn:hover { opacity: .92; }
+
 .card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -157,4 +167,5 @@ main { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
   .hero { padding: 28px 20px; }
   .hero h1 { font-size: 1.35rem; }
   .article h1 { font-size: 1.3rem; }
+  .store-btn.lg { flex: 1 1 100%; text-align: center; }
 }
